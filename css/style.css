@@ -1,0 +1,170 @@
+body{
+    margin-top: 50px;
+}
+#navigation{
+    margin: 5px;
+    margin-right: 20px;
+}
+.thumb {
+    padding: 10px;
+    margin-top: 5px;
+ }
+/*index and category image*/
+.thumb .image-thumb{
+    width: 150px;
+    height: 150px;
+    margin-left: 8px;
+}
+
+
+#header-Wrapper{
+    position: relative;
+    padding: 0;
+    height: 600px;
+    background-image: url(../images/chainimage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#logo-text{
+    width: 100%;
+    height: 180px;
+    position: absolute;
+}
+
+#logo-text h1{
+    color: #bbb;
+    text-align: center;
+    padding-top: 200px;
+    font-weight: 600;
+    font-size: 50px;
+}
+/*admin css script--------------------------------- */
+#add_product{
+    margin-top: -45px;
+}
+
+/*admin signup form-----------------------------------*/
+#signup_foorm{
+    width: 25%;
+    height: 100%;
+}
+ .error_text p{
+    margin-right: 30px;
+}
+/*admin image container---------------------------------*/
+.image_container img{
+    width: 200px;
+    height: 200px;
+}
+
+/*login form---------------------------------------------*/
+#signup_form{
+    width: 50%;
+    margin: 2% auto;
+}
+#login-form{
+    width: 25%;
+    margin: 10% auto;
+    border: 1px solid #bbb;
+    box-shadow : 7px 7px 15px rgba(0,0,0,0.6);
+    padding: 15px;
+    border-radius: 6px;
+}
+.login-form h2{
+    color: #f1f1f1;
+    font-weight: 600;
+}
+/*users_images----------------------------------------------*/
+#user_images img{
+    width: 100%;
+    height: 350px;
+    padding: 10px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+/*users_detail-------------------------------------------------*/
+#back-button{
+  margin-top: -45px;
+}
+#edit_field{
+     margin-right: 50px;
+}
+#form_field{
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    
+}
+/*password-form---------------------------------------------------*/
+#password-form{
+    width: 25%;
+    margin: 5% auto;
+    border: 1px solid #bbb;
+    box-shadow : 7px 7px 15px rgba(0,0,0,0.6);
+    padding: 15px;
+    border-radius: 6px;
+}
+/*category image page------------------------------------------------*/
+#category-header-Wrapper{
+    position: relative;
+    height: 300px;
+    padding: 0;
+    background-image: url(../images/chainimage.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+/*index detail-------------------------------------------------------*/
+#quantity{
+    
+    width: 15%;
+}
+#sizes{
+    width: 70%;
+}
+
+/*cart--------------------------------------------------------------*/
+.cart .number{
+    background-color: rgb(247, 247, 23);
+    border-radius:100%;
+    width:30px;
+    height: 25px;
+}
+.my_cart .button{
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.cart .number p{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.total_price{
+    background-color: rgb(240, 240, 13);
+    font-size: 20px;
+    font-weight: 600;
+}
+.image_cart{
+    width: 300px;
+}
+
+/*navigation cart btn*/
+.btn-shopping{
+      background-color: rgb(216, 216, 21);
+      border-radius: 6px;
+}
+
+/*widget*/
+#widget td, #recent td{
+    font-size: 12px;
+}
+/*filter*/
+.filter .price_input{
+    width: 40%;
+    border-radius: 5px;
+    border:1px solid #bbb;
+    margin-top: 10px;
+}
